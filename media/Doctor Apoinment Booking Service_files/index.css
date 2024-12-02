@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: manrope, sans-serif;
+}
+
+.header {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: manrope, sans-serif;
+    font-weight: 500;
+}
+
+.nav a:hover {
+
+    color: #007acc;
+
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.numbers a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    transition: ease 1s;
+}
+
+.numbers a:hover {
+    color: #007acc;
+
+}
+
+.demo-button {
+    height: 50px;
+    width: 180px;
+    background-color: #00c6ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    transition: ease 1s;
+    font-family: manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.demo-button:hover {
+    background-color: white;
+    color: #00c6ff;
+    border: #00c6ff solid 1px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.demo-button i {
+    padding-right: 4px;
+}
+
+.demobtn-container {
+    margin: 2%;
+}
+
+.whatsapp-logo {
+    font-size: 35px;
+    color: #007acc;
+
+}
+
+.call-us {
+    margin: 0;
+    color: #c1c1c1
+}
+
+.background-img-container {
+    width: 100%;
+    height: 690px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.background-clinic-img {
+    background-image: linear-gradient(53deg, #040476bd, #040476c4, #0000ff85, transparent);
+    height: 690px;
+    width: 100%;
+
+}
+
+.text-of-img {
+    font-family: manrope, sans-serif;
+    width: 56%;
+    position: absolute;
+    bottom: 175px;
+    left: 274px;
+}
+
+.h1-telemedicine h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.h1-span {
+    color: #00C6FF;
+}
+
+.p-telemedicine p {
+    font-family: manrope, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e8e8e8;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.telemedicine-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.telemedicine-btn a button {
+    width: 194px;
+    height: 58px;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    font-family: manrope, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: #00c6ff;
+    transition: ease 1s;
+    cursor: pointer;
+}
+
+.telemedicine-btn .free-trail-button {
+    background-color: #054ccc;
+}
+
+.free-trail-button i {
+    margin: 2px;
+}
+
+.telemedicine-btn .contact-us-button:hover {
+    border: 2px solid #00C6FF;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    color: #00C6FF;
+}
+
+.telemedicine-btn .free-trail-button:hover {
+    border: 2px solid #054ccc;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    color: #054ccc;
+}
+
+.left-right-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: -135px;
+    right: -265px;
+}
+
+.left-right-btn button {
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 16px;
+    font-weight: 900;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.left-right-btn button:hover {
+    background-color: #007acc;
+    border-radius: 50px 50px 50px 50px;
+    color: #ffffff;
+}
+
+.telemedicine-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 60px;
+}
+.oursolutions-container {
+
+    font-family: manrope, sans-serif;
+}
+
+.oursolutions-container .oursolution-h1 {
+    line-height: 43px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #132637;
+    text-align: center;
+}
+
+.oursolutions-container .oursolution-p {
+    text-align: center;
+    color: #6b7280;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.oursolution-card-container {
+    background-color: #d7edf1;
+    width: 100%;
+    height: 415px;
+}
+
+.telemedicine-card .card1 {
+    background-color: white;
+    width: 325px;
+    height: 320px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 4px rgba(212, 212, 212, 0.25);
+    border: 1px solid rgba(212, 212, 212, 0.25);
+}
+
+.telemedicine-card .card1:hover .tele-p p,.telemedicine-card .card1:hover .tele-h1 h1 , .telemedicine-card .card1:hover .readmore a {
+    color: white;
+}
+.telemedicine-card .card1:hover{
+    background-color: #054ccc;
+
+}
+.tele-h1-img {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    gap: 10px;
+}
+
+.tele-img {
+    width: 70px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.tele-img img {
+    padding: 4px 12px;
+}
+
+.telemedicine-card .tele-p p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6b7280;
+    padding-left: 20px;
+}
+.card1 .readmore a {
+    color: #054ccc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}

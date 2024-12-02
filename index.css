@@ -1,0 +1,804 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: manrope, sans-serif;
+}
+
+.header {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav span a {
+    color: #0049CB;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: manrope, sans-serif;
+    font-weight: 400;
+}
+
+.nav a:hover {
+    color: #007acc;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.numbers a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    transition: ease 1s;
+}
+
+.numbers a:hover {
+    color: #007acc;
+
+}
+
+.demo-button {
+    height: 50px;
+    width: 180px;
+    background-color: #00c6ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    transition: ease 1s;
+    font-family: manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.demo-button:hover {
+    background-color: white;
+    color: #00c6ff;
+    border: #00c6ff solid 1px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.demo-button i {
+    padding-right: 4px;
+}
+
+.demobtn-container {
+    margin: 2%;
+}
+
+.whatsapp-logo {
+    font-size: 35px;
+    color: #007acc;
+
+}
+
+.call-us {
+    margin: 0;
+    color: #c1c1c1
+}
+
+.background-img-container {
+    width: 100%;
+    height: 690px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background-clinic-img {
+    background-image: linear-gradient(53deg, #040476bd, #040476c4, #0000ff85, transparent);
+    height: 690px;
+    width: 100%;
+}
+
+.text-of-img {
+    font-family: manrope, sans-serif;
+    width: 56%;
+    position: absolute;
+    bottom: 175px;
+    left: 274px;
+}
+
+.h1-telemedicine h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.h1-span {
+    color: #00C6FF;
+}
+
+.p-telemedicine p {
+    font-family: manrope, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e8e8e8;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.telemedicine-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.telemedicine-btn a button {
+    width: 194px;
+    height: 58px;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    font-family: manrope, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: #00c6ff;
+    transition: ease 1s;
+    cursor: pointer;
+}
+
+.telemedicine-btn .free-trail-button {
+    background-color: #054ccc;
+}
+
+.free-trail-button i {
+    margin: 2px;
+}
+
+.telemedicine-btn .contact-us-button:hover {
+    border: 2px solid #00C6FF;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    color: #00C6FF;
+}
+
+.telemedicine-btn .free-trail-button:hover {
+    border: 2px solid #054ccc;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    color: #054ccc;
+}
+
+.left-right-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: -135px;
+    right: -265px;
+}
+
+.left-right-btn button {
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 16px;
+    font-weight: 900;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.left-right-btn button:hover {
+    background-color: #007acc;
+    border-radius: 50px 50px 50px 50px;
+    color: #ffffff;
+}
+
+.telemedicine-card {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 60px;
+}
+
+.oursolutions-container {
+
+    font-family: manrope, sans-serif;
+}
+
+.oursolutions-container .oursolution-h1 {
+    line-height: 43px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #132637;
+    text-align: center;
+}
+
+.oursolutions-container .oursolution-p {
+    text-align: center;
+    color: #6b7280;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.oursolution-card-container {
+    background-color: #d7edf1;
+    width: 100%;
+    height: 820px;
+}
+
+.telemedicine-card .card1 {
+    background-color: white;
+    width: 325px;
+    height: 320px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 4px rgba(212, 212, 212, 0.25);
+    border: 1px solid rgba(212, 212, 212, 0.25);
+    transition: ease 1s;
+}
+
+.telemedicine-card .card1:hover .tele-p p,
+.telemedicine-card .card1:hover .tele-h1 h1,
+.telemedicine-card .card1:hover .readmore a {
+    color: white;
+}
+
+.telemedicine-card .card1:hover {
+    background-color: #054ccc;
+
+}
+
+.tele-h1-img {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    gap: 10px;
+}
+
+.tele-img {
+    width: 70px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.tele-img img {
+    padding: 4px 12px;
+}
+
+.telemedicine-card .tele-p p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6b7280;
+    padding-left: 20px;
+}
+
+.card1 .readmore a {
+    color: #054ccc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.about-us-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 950px;
+    background-color: #0049CB;
+}
+
+.about-us-text {
+    padding-top: 45px;
+}
+
+.aboutus-h1 h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #ffffff;
+}
+
+.aboutus-p p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.aboutus-right {
+    width: 50%;
+    position: relative;
+}
+
+.aboutus-left {
+    width: 50%;
+}
+
+.aboutus-left .aboutus-image {
+    position: absolute;
+    right: 80px
+}
+
+.aboutus-h3 h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    height: 180px;
+    width: 546px;
+
+}
+
+.adoutus-right-text {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.aboutus-p1 {
+    display: flex;
+    align-items: center;
+}
+
+.aboutus-p1 .p1 p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.what-we-offer {
+    background-color: #E5E8FE;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.whatweoffer-left {
+    width: 50%;
+}
+
+.whatweoffer-left {
+    text-align: end;
+}
+
+.whatweoffer-right {
+    width: 50%;
+    position: relative;
+    height: 756px;
+}
+
+.whatweoffer-text {
+    position: absolute;
+    top: 0;
+    left: 20px;
+
+}
+
+.whatweoffer-h1 h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+
+.whatweoffer-h3 h3 {
+    color: #0049cb;
+    line-height: 19px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.whatweoffer-p p {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6b7280;
+}
+
+.ourhelpline-no p {
+    color: #132637;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.contacts-whatweoffer {
+    display: flex;
+    align-items: center;
+
+}
+
+.ourhelpline-no i {
+    color: #0049cb;
+    padding-right: 10px;
+}
+
+.booknow-text i {
+    color: #0049cb;
+    padding-right: 10px;
+}
+
+.contacts-whatweoffer {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ourhelpline-heading p,
+.onlinedemo-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #6b7280;
+}
+
+.booknow-text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.whatweoffer-card1 {
+    border: none;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+    width: 330px;
+    height: 535px;
+}
+
+.whatweoffercard1-img img {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.whatweoffer-cardcontainer {
+    position: absolute;
+    bottom: 67px;
+    left: 95px;
+
+}
+
+.whatweoffer-cards-content {
+    gap: 75px;
+    display: flex;
+    align-items: center
+}
+
+.whatweoffer-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.whatweoffercard1-h1 h1 {
+    padding-left: 15px;
+    color: #132637;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.whatweoffercard1-p p {
+    color: #6b7280;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 18px
+}
+
+.whatweoffer-card1-ul ul li {
+    list-style: none;
+    color: #6b7280;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hilights-section {
+    text-align: center;
+}
+
+.highlight-cards {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 219, 219);
+    height: 180px;
+    width: 370px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    transition: ease 0.5s;
+}
+
+.highligt-heading {
+    font-size: larger;
+    margin-top: 50px;
+    color: #132637;
+}
+
+.highlight-text {
+    color: #6c7381;
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+.highlight-icon img {
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.highlight-content {
+    margin-top: 65px;
+    margin-left: 20px;
+    color: rgb(44, 44, 44);
+    font-size: larger;
+}
+
+.hightlight-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.highlight-cards:hover {
+    background-color: #0049CB;
+}
+
+.highlight-cards:hover .highlight-content {
+    color: white;
+}
+
+.highlight-cards:hover .highlight-icon {
+    color: white;
+}
+
+.whatweoffer-card1-ul ul li i {
+    color: #00C6FF;
+}
+
+.ourexpertise-bgimg-container {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.ourexpertise-background-image {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(53deg, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.644));
+}
+
+.ourexpertise-h1 h1 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 74px;
+    color: #ffffff;
+}
+
+.ourexpertise-text {
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
+
+.ourexpertise-button-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.ourexpertise-btn1 a button {
+    background-color: #0049CB;
+    width: 194px;
+    height: 58px;
+    border-radius: 40px 40px 40px 40px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: ease 1s;
+}
+
+.ourexpertise-btn1 a button:hover {
+    background-color: white;
+    color: #0049CB;
+    border-radius: 40px 40px 40px 40px;
+    border: #0049cb solid 2px;
+}
+
+.ourexpertise-btn2 a button {
+    background-color: #00c6ff;
+    width: 194px;
+    height: 58px;
+    border-radius: 40px 40px 40px 40px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: ease 1s;
+}
+
+.ourexpertise-btn2 a button:hover {
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    border: #00c6ff solid 2px;
+    color: #00c6ff;
+}
+
+.valuableclients-text {
+    text-align: center;
+    padding-top: 105px;
+}
+
+.valuableclients-h1 h1 {
+    color: #132637;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+.valuableclients-p p {
+    color: #6b7280;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.valuableclients-container {
+    width: 100%;
+    height: 428px;
+    background-color: #ffffff;
+}
+
+.pediatrcis-backgroundimg-container {
+    height: 845px;
+    width: 100%;
+    position: relative;
+}
+
+.pediatrcis-container {
+    display: flex;
+    align-items: center;
+}
+
+.pediatrcis-left {
+    position: absolute;
+    top: 85px;
+    left: 97px;
+    width: 50%;
+}
+
+.pediatrcis-h1 h1 {
+    text-align: center;
+    color: #00c6ff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.pediatrcis-p p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.left-right-btn-2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: -41px;
+    left: 280px;
+}
+
+.left-right-btn-2 button {
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 16px;
+    font-weight: 900;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.left-right-btn-2 button:hover {
+    background-color: #007acc;
+    border-radius: 50px 50px 50px 50px;
+    color: #ffffff;
+}
+
+.pediatrcis-right {
+    position: absolute;
+    right: 0;
+}
+
+.ProductTimeline-container {
+    width: 100%;
+    height: 600px;
+    background-color: #044AC6;
+}
+
+.ProductTimeline-h1 h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    padding-top: 30px;
+}
+
+.ProductTimeline-p p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+.doccureideation-text {
+    width: 190px;
+}
+
+.doccureideation-icon i {
+    color: #00C6FF;
+    font-size: 20px;
+}
+
+.doccureideation-icon {
+    text-align: center;
+}
+
+.doccureideation-h1 h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.doccureideation-p p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.ProductTimeline-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
